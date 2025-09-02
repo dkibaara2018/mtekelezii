@@ -154,4 +154,3 @@ pnpm dev   # http://localhost:3000
 - Day 7: Tests + deploy + demo content.
 ```
 
-
