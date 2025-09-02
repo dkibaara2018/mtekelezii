@@ -20,7 +20,7 @@
 - **Domain:** Vercel subdomain; optional free domain later
 
 ## 3. Architecture Overview
-```
+
 [Browser]
   ├─ UI (Next.js / Tailwind / shadcn)
   └─ Fetch → /api/* (server-only secrets)
@@ -44,7 +44,7 @@
 
 [LLM Provider]
   └─ JSON-only responses (strict schema)
-```
+
 
 ## 4. Data Model (high level)
 - **profiles**: id, email, created_at
