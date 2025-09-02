@@ -1,0 +1,11 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://example.com/schemas/idea.create.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "raw_input"],
+  "properties": {
+    "title": { "type": "string", "minLength": 3, "maxLength": 120 },
+    "raw_input": { "type": "string", "minLength": 10, "maxLength": 4000 }
+  }
+}
